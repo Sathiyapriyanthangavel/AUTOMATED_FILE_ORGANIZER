@@ -1,7 +1,8 @@
-File Organizer Script
+#File Organizer Script
+
 A Python script to organize files in a directory into categorized subfolders based on their file extensions. This is particularly useful for decluttering directories and keeping files organized.
 
-Features
+##Features
 
 Automatically creates categorized directories (Videos, Audio, Images, Documents, Programs, Software) if they don't exist.
 Moves files into respective folders based on their file extensions.
@@ -10,19 +11,12 @@ Skips hidden/system files and subdirectories.
 Provides detailed logs for moved, skipped, and unhandled files.
 Implements error handling to avoid issues like file permission problems or duplicate names.
 
-File Categories
+#File Categories
+##Category and Extensions_Handled
 
-Category	           Extensions_Handled
+Videos (.mp4, .mov, .mkv, .webm), Audio	(.mp3, .aac, .m4a), Images (.png, .jpeg, .jpg), Documents (.pdf, .docx, .pptx, .doc), Programs (.py, .c, .cpp, .java), Software (.exe)
 
-Videos	            .mp4, .mov, .mkv, .webm
-Audio	              .mp3, .aac, .m4a
-Images	            .png, .jpeg, .jpg
-Documents	          .pdf, .docx, .pptx, .doc
-Programs	          .py, .c, .cpp, .java
-Software	          .exe
-
-
-Requirements
+#Requirements
 
 Python 3.6 or higher
 Modules:
@@ -30,7 +24,7 @@ os
 shutil
 No external dependencies are required.
 
-Future Enhancements
+#Future Enhancements
 
 Add support for more file types.
 Provide a GUI for non-technical users.
